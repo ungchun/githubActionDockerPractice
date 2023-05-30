@@ -23,6 +23,7 @@ ADD /build/libs/*.jar app.jar
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
 
 
+
 #FROM openjdk:17-alpine
 #ARG JAR_FILE=/build/libs/sejongmate-0.0.1-SNAPSHOT.jar
 #COPY ${JAR_FILE} /sejongmate.jar
